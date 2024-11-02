@@ -1,0 +1,48 @@
+#text{
+    text-align: center;
+
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    border-radius: 5px;
+    justify-content:center;
+    width:250px;
+}
+
+.button{
+    padding: 20px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: grey;
+    margin: 3px;
+    cursor:pointer;
+
+}
+
+.operator{
+    background-color: orange;
+}
+.row{
+    margin: 6px;
+}
+
+#inputbox{
+    padding:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+    color:aliceblue;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
